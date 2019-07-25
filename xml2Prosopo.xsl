@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    exclude-result-prefixes="xs" 
-    xpath-default-namespace="" xmlns="xpr"
-    version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" xpath-default-namespace="" xmlns="xpr" version="2.0">
 
     <xsl:strip-space elements="*"/>
     <xsl:output encoding="UTF-8" indent="yes" method="xml"/>
@@ -43,7 +38,7 @@
         <!-- @quest ne faut-il pas distinguer ces deux types de source ? -->
         <xsl:variable name="officePurchaseSource" select="aquisitionSource | propertySource"/>
         <xsl:variable name="officePredecessor" select="predecessor"/>
-        <xsl:variable name="officeSuccessor" select="successor"/>
+
         <xsl:variable name="officeId" select="officeId"/>
         <xsl:variable name="officeAcquisitionDate" select="acquisitionDate"/>
         <xsl:variable name="officeVacant" select="vacant"/>
@@ -51,7 +46,21 @@
         <!-- @rmq costMentionned n'est jamais renseigné -->
         <xsl:variable name="officeCostMentionned" select="costMentionned"/>
         <xsl:variable name="officeCategory" select="category"/>
+
+        <!-- Résignation/Vente d'un office (par un expert) -->
+        <xsl:variable name="officeSuccessor" select="successor"/>
+        <xsl:variable name="dateEndActivity" select="dateEndActivity"/>
+        <xsl:variable name="endActivity" select="endActivity"/>
         
+        <!-- Inventaire après décès / estate inventory -->
+        <xsl:variable name="iad" select="iad"/>
+        <xsl:variable name="iadSource" select="iadSource[position() = 1]"/>
+        <xsl:variable name="iadEtude" select="iadEtude"/>
+        <xsl:variable name="iadSource2" select="iadSource[position() = 2]"/>
+        <xsl:variable name="iadPhoto" select="iadPhoto"/>
+        
+        
+
         <person xml:id="{$id}">
             <xsl:call-template name="names">
                 <xsl:with-param name="names" select="$names"/>
@@ -87,6 +96,21 @@
                 <xsl:with-param name="officeCost" select="$officeCost"/>
                 <xsl:with-param name="officeCostMentionned" select="$officeCostMentionned"/>
                 <xsl:with-param name="officeCategory" select="$officeCategory"/>
+            </xsl:call-template>
+
+            <xsl:call-template name="relinquishment">
+                <xsl:with-param name="officeSuccessor" select="$officeSuccessor"/>
+                <xsl:with-param name="officeId" select="$officeId"/>
+                <xsl:with-param name="dateEndActivity" select="$dateEndActivity"/>
+                <xsl:with-param name="endActivity" select="$endActivity"/>
+            </xsl:call-template>
+            
+            <xsl:call-template name="iad">
+                <xsl:with-param name="iad" select="$iad"/>
+                <xsl:with-param name="iadSource" select="$iadSource"/>
+                <xsl:with-param name="iadEtude" select="$iadEtude"/>
+                <xsl:with-param name="iadSource2" select="$iadSource2"/>
+                <xsl:with-param name="iadPhoto" select="$iadPhoto"/>
             </xsl:call-template>
             <xsl:apply-templates/>
         </person>
@@ -235,11 +259,13 @@
             </event>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template match="title">
-        <occupation><xsl:value-of select="."/></occupation>
+        <occupation>
+            <xsl:value-of select="."/>
+        </occupation>
     </xsl:template>
-    
+
     <xsl:template name="officePurchase">
         <xsl:param name="officePurchaseSource"/>
         <xsl:param name="officePredecessor"/>
@@ -257,7 +283,7 @@
                 <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
             </xsl:for-each>
         </xsl:variable>
-        
+
         <xsl:variable name="successorSurname" select="substring-before($officeSuccessor, ',')"/>
         <xsl:variable name="successorForename" select="substring-after($officeSuccessor, ', ')"/>
         <xsl:variable name="successorRef">
@@ -265,7 +291,7 @@
                 <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
             </xsl:for-each>
         </xsl:variable>
-        
+
         <event type="officePurchase">
             <label>Acquisition d'un office</label>
             <xsl:choose>
@@ -273,20 +299,111 @@
                     <date when="{normalize-space($officeAcquisitionDate)}"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <date><xsl:value-of select="normalize-space($officeAcquisitionDate)"/></date>
+                    <date>
+                        <xsl:value-of select="normalize-space($officeAcquisitionDate)"/>
+                    </date>
                 </xsl:otherwise>
             </xsl:choose>
             <officeId ref="{$officeId}"/>
             <!-- @quest predecessor/successor plutot que persName @type -->
-            <!-- @rmq je récupère les ref à la volée, mais uniquement sur le nom de famille, il faut donc vérifier les cas d'homonymie-->
-            <persName ref="{$predecessorRef}" type="predecessor"><xsl:value-of select="$officePredecessor"/></persName>
-            <persName ref="{$successorRef}" type="successor"><xsl:value-of select="$officeSuccessor"/></persName>
-            <cost><xsl:value-of select="$officeCost"/></cost>
-            <category><xsl:value-of select="$officeCategory"/></category>
+            <!-- @rmq je récupère les ref à la volée, mais uniquement si nom de famille et prenom correspondent-->
+            <persName ref="{$predecessorRef}" type="predecessor">
+                <xsl:value-of select="$officePredecessor"/>
+            </persName>
+            <!--@rmq les successeurs sont placés dans un event de type relinquishment (résignation) (mais lorsqu'il n'y a pas de résignation, on ne les récupère pas !)-->
+            <!--<persName ref="{$successorRef}" type="successor">
+                <xsl:value-of select="$officeSuccessor"/>
+            </persName>-->
+            <cost>
+                <xsl:value-of select="$officeCost"/>
+            </cost>
+            <category>
+                <xsl:value-of select="$officeCategory"/>
+            </category>
             <xsl:for-each select="$officePurchaseSource[position()][string(.)]">
-                <bibl><xsl:value-of select="."/></bibl>
+                <bibl>
+                    <xsl:value-of select="."/>
+                </bibl>
             </xsl:for-each>
         </event>
+    </xsl:template>
+
+    <xsl:template name="relinquishment">
+        <!-- @quest comment distinguer résignation et vente ? parfois les deux sont distincts -->
+        <xsl:param name="officeSuccessor"/>
+        <xsl:param name="officeId"/>
+        <xsl:param name="dateEndActivity"/>
+        <xsl:param name="endActivity"/>
+
+        <xsl:variable name="successorSurname" select="substring-before($officeSuccessor, ',')"/>
+        <xsl:variable name="successorForename" select="substring-after($officeSuccessor, ', ')"/>
+        <xsl:variable name="successorRef">
+            <xsl:for-each select="//record[./name = $successorSurname or ./variant = $successorSurname][./firstName = $successorForename]">
+                <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
+            </xsl:for-each>
+        </xsl:variable>
+        <xsl:choose>
+            <xsl:when test="$endActivity = 'Résignation'">
+                <event type="relinquishment">
+                    <!-- @todo label -->
+                    <label>Résignation/vente de l'office</label>
+                    <xsl:choose>
+                        <xsl:when test="$dateEndActivity castable as xs:date">
+                            <date when="{normalize-space($dateEndActivity)}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <date>
+                                <xsl:value-of select="normalize-space($dateEndActivity)"/>
+                            </date>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <officeId ref="{$officeId}"/>
+                    <persName ref="{$successorRef}" type="successor">
+                        <xsl:value-of select="$officeSuccessor"/>
+                    </persName>
+                </event>
+            </xsl:when>
+            <xsl:otherwise/>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="iad">
+        <xsl:param name="iad"/>
+        <xsl:param name="iadSource"/>
+        <xsl:param name="iadEtude"/>
+        <xsl:param name="iadSource2"/>
+        <xsl:param name="iadPhoto"/>
+        <xsl:choose>
+            <xsl:when test="string($iad)">
+                <event type="estateInventory">
+                    <label>Inventaire après décès</label>
+                    <xsl:choose>
+                        <xsl:when test="$iad castable as xs:date">
+                            <date when="{normalize-space($iad)}"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <date>
+                                <xsl:value-of select="normalize-space($iad)"/>
+                            </date>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                    <xsl:if test="string($iadEtude)">
+                        <office><xsl:value-of select="$iadEtude"/></office>
+                    </xsl:if>
+                    <xsl:if test="string($iadSource)">
+                        <bibl><xsl:value-of select="$iadSource"/></bibl>
+                    </xsl:if>
+                    <xsl:if test="string($iadSource2)">
+                        <!-- @todo ou place source de la ref (ici iadSource2) -->
+                        <note><xsl:value-of select="$iadSource2"/></note>
+                    </xsl:if>
+                    <xsl:if test="string($iadPhoto)">
+                        <figure ref="{$iadPhoto}"/>
+                    </xsl:if>
+                </event>
+            </xsl:when>
+            <xsl:otherwise/>
+        </xsl:choose>
     </xsl:template>
 
     <xsl:template match="name | id | variant | firstName | birthDate | birthParish | birthSource | deathDate | deathSource"/>
