@@ -251,15 +251,17 @@
         <xsl:param name="officeCostMentionned"/>
         <xsl:param name="officeCategory"/>
         <xsl:variable name="predecessorSurname" select="substring-before($officePredecessor, ',')"/>
+        <xsl:variable name="predecessorForename" select="substring-after($officePredecessor, ', ')"/>
         <xsl:variable name="predecessorRef">
-            <xsl:for-each select="//record[./name = $predecessorSurname]">
+            <xsl:for-each select="//record[./name = $predecessorSurname or ./variant = $predecessorSurname][./firstName = $predecessorForename]">
                 <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
             </xsl:for-each>
         </xsl:variable>
         
         <xsl:variable name="successorSurname" select="substring-before($officeSuccessor, ',')"/>
+        <xsl:variable name="successorForename" select="substring-after($officeSuccessor, ', ')"/>
         <xsl:variable name="successorRef">
-            <xsl:for-each select="//record[./name = $successorSurname]">
+            <xsl:for-each select="//record[./name = $successorSurname or ./variant = $successorSurname][./firstName = $successorForename]">
                 <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
             </xsl:for-each>
         </xsl:variable>
