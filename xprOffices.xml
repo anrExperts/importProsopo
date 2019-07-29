@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listOffice xmlns="xpr">
+   <office xml:id="xprOffice01">
+      <event type="acquisition">
+         <person ref="xpr0008"/>
+         <date from="1690" to="1702"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0111"/>
+         <date to="1727"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0231"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0101"/>
+         <date to="1789"/>
+         <type>E</type>
+         <bibl type="propertyEnd">Journal de Paris</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice02">
+      <event type="acquisition">
+         <person ref="xpr0011"/>
+         <date from="1690" to="1712"/>
+         <type>A</type>
+         <bibl type="protertyStart">P4000</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0037"/>
+         <date from="1738-03-15"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/CXVI/299</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0038"/>
+         <date from="Achat 1761-06-23" to="1791"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/XIII/319</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice03">
+      <event type="acquisition">
+         <person ref="xpr0012"/>
+         <date from="1690" to="1710"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0073"/>
+         <date to=""/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice04">
+      <event type="acquisition">
+         <person ref="xpr0014"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0152"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0151"/>
+         <date from="hérite de son père"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice05">
+      <event type="acquisition">
+         <person ref="xpr0021"/>
+         <date from="1690" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0236"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0044"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice06">
+      <event type="acquisition">
+         <person ref="xpr0035"/>
+         <date from="1690" to="1713-08-08"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">AN/Y/10968</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0179"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0188"/>
+         <date from="1741-01-02"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/ET/CXII/684A</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0229"/>
+         <date from="1751-10-07"/>
+         <type>A</type>
+         <bibl type="protertyStart">LP</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0265"/>
+         <date from="1789-06-24" to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice07">
+      <event type="acquisition">
+         <person ref="xpr0048"/>
+         <date from="1690" to="au plus tard 1735"/>
+         <type>E/A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0020"/>
+         <date to="1739-01"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0098"/>
+         <date to="1755"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0060"/>
+         <date to=""/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0090"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice08">
+      <event type="acquisition">
+         <person ref="xpr0059"/>
+         <date from="1690" to="avant 1718"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0145"/>
+         <date from="1718-07-12" to="1730"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/CXVIII/313</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0230"/>
+         <date from="1733-02-09"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/VIII/1000</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0187"/>
+         <date from="1777-03-24" to="1791"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/XLIX/825 (J)</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice09">
+      <event type="acquisition">
+         <person ref="xpr0086"/>
+         <date from="1690" to="max 1730"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0219"/>
+         <date to=""/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0163"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice10">
+      <event type="acquisition">
+         <person ref="xpr0087"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0112"/>
+         <date from="1721-07-30" to="1738-04-17"/>
+         <type>E</type>
+         <bibl type="protertyStart">LP</bibl>
+         <bibl type="propertyEnd">Y13636</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0006"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0110"/>
+         <date from="1765-12-24"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/XXXVI/517</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0049"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice11">
+      <event type="acquisition">
+         <person ref="xpr0094"/>
+         <date from="1690" to="max 1704"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0183"/>
+         <date from="1704-04-11" to="1737"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/LXXXVI/476</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0184"/>
+         <date to="1770"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0155"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice12">
+      <event type="acquisition">
+         <person ref="xpr0099"/>
+         <date from="1690" to="max 1707"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0125"/>
+         <date to="1719-06"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0222"/>
+         <date from="1722-01-10" to="1728"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/LXXVI/221</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0080"/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0013"/>
+         <date to="1752-01-08"/>
+         <type>A</type>
+         <bibl type="propertyEnd">LP Desmaisons</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0092"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0215"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice13">
+      <event type="acquisition">
+         <person ref="xpr0116"/>
+         <date from="1690" to="1699"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">Y4083C</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0053"/>
+         <date to="avant 1724"/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0051"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0067"/>
+         <date to=""/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice14">
+      <event type="acquisition">
+         <person ref="xpr0115"/>
+         <date from="1690" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0069"/>
+         <date to="1716"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0257"/>
+         <date from="1735-04-29" to="1753-06-26"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/LXX/309</bibl>
+         <bibl type="propertyEnd">AN/Y/13103</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0227"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0002"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice15">
+      <event type="acquisition">
+         <person ref="xpr0124"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice16">
+      <event type="acquisition">
+         <person ref="xpr0132"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice17">
+      <event type="acquisition">
+         <person ref="xpr0135"/>
+         <date from="1690" to="1703-10"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0100"/>
+         <date to="1733"/>
+         <type>E</type>
+         <bibl type="propertyEnd">test + LP succ.</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0117"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0106"/>
+         <date to="max. 12-1693"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice18">
+      <event type="acquisition">
+         <person ref="xpr0139"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice19">
+      <event type="acquisition">
+         <person ref="xpr0140"/>
+         <date from="1690" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0118"/>
+         <date to=""/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0250"/>
+         <date to="1788-10-26"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Journal de Paris</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0217"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice20">
+      <event type="acquisition">
+         <person ref="xpr0146"/>
+         <date from="1690" to="max 1722"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0147"/>
+         <date from="hérite de son père" to="1756-07-17"/>
+         <type>E</type>
+         <bibl type="protertyStart">nommé par acte du 1722-04-01 par ses frères et soeurs</bibl>
+         <bibl type="propertyEnd">LP Jacob</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0143"/>
+         <date to="1786-11-17"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/12693</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0144"/>
+         <date from="héritage ?"/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0169"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice21">
+      <event type="acquisition">
+         <person ref="xpr0153"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0097"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0081"/>
+         <date from="1748-04-22" to="1786"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/XC/360</bibl>
+         <bibl type="propertyEnd">Journal de Paris (scellés IAD en sept. 1786)</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0238"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice22">
+      <event type="acquisition">
+         <person ref="xpr0154"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0142"/>
+         <date from="héritage (LP Guillot)" to="1709-05"/>
+         <type>0</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0134"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0130"/>
+         <date/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0075"/>
+         <date from="1744-04-20"/>
+         <type>0</type>
+         <bibl type="protertyStart">AN/MC/CXII/541B</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0070"/>
+         <date to="1779-06-15"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Notoriété 1779-11-02</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0245"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice23">
+      <event type="acquisition">
+         <person ref="xpr0157"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0113"/>
+         <date to="1726"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Z/1j/578, dossier 19</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0259"/>
+         <date to="1780-12-10"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/13004</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0127"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice24">
+      <event type="acquisition">
+         <person ref="xpr0161"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0019"/>
+         <date to="1739-04-07"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0182"/>
+         <date/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0040"/>
+         <date to="1768 au plus tard"/>
+         <type>E</type>
+         <bibl type="propertyEnd">LP Poulain</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0228"/>
+         <date from="1768-07-26" to="1791"/>
+         <type>A</type>
+         <bibl type="protertyStart">LP</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice25">
+      <event type="acquisition">
+         <person ref="xpr0162"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice26">
+      <event type="acquisition">
+         <person ref="xpr0167"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0034"/>
+         <date to="1761-09-22"/>
+         <type>A</type>
+         <bibl type="propertyEnd">AN/Y/11778</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0261"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice27">
+      <event type="acquisition">
+         <person ref="xpr0168"/>
+         <date from="1690" to="1721-03-12"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">AN/Y/13207</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0223"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0022"/>
+         <date from="1775-04-25"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/CXIII/477</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0199"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice28">
+      <event type="acquisition">
+         <person ref="xpr0170"/>
+         <date from="1690" to="1722"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0001"/>
+         <date from="1722-12-24"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/XXXVI/392</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0131"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0216"/>
+         <date from="1769-11-08" to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice29">
+      <event type="acquisition">
+         <person ref="xpr0180"/>
+         <date from="Création OF29 + achat OF50"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0197"/>
+         <date to="1717-11"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0074"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0159"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0071"/>
+         <date to="1757-02-04"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/14023</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0005"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0004"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice30">
+      <event type="acquisition">
+         <person ref="xpr0186"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0018"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0065"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice31">
+      <event type="acquisition">
+         <person ref="xpr0190"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0233"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0045"/>
+         <date to="1767-07-03"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/15275</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice32">
+      <event type="acquisition">
+         <person ref="xpr0192"/>
+         <date from="1690" to="1705"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0193"/>
+         <date from="1708-06-26" to="1729"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/XXVIII/94</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0056"/>
+         <date from="1730-07-30" to="1761-04-15"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/XXXIII/455</bibl>
+         <bibl type="propertyEnd">AN/Y/14681</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0096"/>
+         <date to="1772"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0095"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice33">
+      <event type="acquisition">
+         <person ref="xpr0194"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0079"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0114"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice34">
+      <event type="acquisition">
+         <person ref="xpr0195"/>
+         <date from="1690" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0158"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0107"/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice35">
+      <event type="acquisition">
+         <person ref="xpr0196"/>
+         <date from="1690" to=""/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type>264 A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0165"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice36">
+      <event type="acquisition">
+         <person ref="xpr0077"/>
+         <date from="1690" to="1716"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">MC/ET/XXXI/60</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0078"/>
+         <date to=""/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0043"/>
+         <date from="1751-09-23" to="1789"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/LXXIII/767</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice37">
+      <event type="acquisition">
+         <person ref="xpr0198"/>
+         <date from="1690" to=""/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0027"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0023"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0156"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0122"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice38">
+      <event type="acquisition">
+         <person ref="xpr0204"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0232"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0119"/>
+         <date from="1743-03-19"/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/LXXVIII/692</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0173"/>
+         <date from="1751-02-01"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/ET/XXVII/257</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0032"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0064"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice39">
+      <event type="acquisition">
+         <person ref="xpr0211"/>
+         <date from="1690" to="1723-03-22"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0015"/>
+         <date to="1741-02"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/4585B</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice40">
+      <event type="acquisition">
+         <person ref="xpr0212"/>
+         <date from="1690"/>
+         <type>0</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0166"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0248"/>
+         <date to="1742"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD+recoupements</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0210"/>
+         <date to="1780-05-06"/>
+         <type>E</type>
+         <bibl type="propertyEnd">AN/Y/11505</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0007"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice41">
+      <event type="acquisition">
+         <person ref="xpr0251"/>
+         <date from="1690"/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0213"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0054"/>
+         <date to="1776-04-14"/>
+         <type>A/E</type>
+         <bibl type="propertyEnd">LP successeur</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0203"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice42">
+      <event type="acquisition">
+         <person ref="xpr0218"/>
+         <date from="1690" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0149"/>
+         <type>E/A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice43">
+      <event type="acquisition">
+         <person ref="xpr0220"/>
+         <date from="1690" to="1704"/>
+         <type>E/A</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0123"/>
+         <date from="1708-05-10"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/ET/VII/183</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0121"/>
+         <date from="hérite de l'office 43 de son père Louis achète l'office 48 le 1733-01-28"
+               to="1769-11"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/I/362</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0108"/>
+         <date from="1723-09-09" to="1763-12"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/I/313</bibl>
+         <bibl type="propertyEnd">Placard de décès, AN</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0102"/>
+         <date to="1789"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Journal de Paris</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice44">
+      <event type="acquisition">
+         <person ref="xpr0221"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0255"/>
+         <date to="1743"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0191"/>
+         <date from="1743-02-18" to="1778-08-12"/>
+         <type>E/A</type>
+         <bibl type="protertyStart">transmission par héritage</bibl>
+         <bibl type="propertyEnd">LP</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0176"/>
+         <date from="1778-09-21" to="1791"/>
+         <type>A</type>
+         <bibl type="protertyStart">LP</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice45">
+      <event type="acquisition">
+         <person ref="xpr0225"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0017"/>
+         <date to="1734-10-25"/>
+         <type>A</type>
+         <bibl type="propertyEnd">AN/Y/14538</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0084"/>
+         <date from="1735-02-28" to=""/>
+         <type>A</type>
+         <bibl type="protertyStart">MC/ET/III/890</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0085"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice46">
+      <event type="acquisition">
+         <person ref="xpr0224"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0141"/>
+         <date to="1723-04"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0262"/>
+         <date to="1735"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0209"/>
+         <date to="1784-11"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Journal de Paris</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0249"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice47">
+      <event type="acquisition">
+         <person ref="xpr0237"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0066"/>
+         <date to="1776"/>
+         <type>A</type>
+         <bibl type="propertyEnd">Journal de Paris 1785</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0260"/>
+         <date to="1791"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice48">
+      <event type="acquisition">
+         <person ref="xpr0244"/>
+         <date from="1690"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0029"/>
+         <date from="1720-10-02"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/III/851</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0121"/>
+         <date from="hérite de l'office 43 de son père Louis achète l'office 48 le 1733-01-28"
+               to="1769-11"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/I/362</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0205"/>
+         <date from="1771-09-21" to="1791"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/II/652</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice49">
+      <event type="acquisition">
+         <person ref="xpr0263"/>
+         <date from="1690"/>
+         <type>A</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0126"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0171"/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0050"/>
+         <date from="1761-03-26" to="1791"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/XIV/372</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice50">
+      <event type="acquisition">
+         <person ref="xpr0266"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0180"/>
+         <date from="Création OF29 + achat OF50"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0246"/>
+         <date from="1712-08-14" to="1733"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/XCII/361</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0247"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice51">
+      <event type="acquisition">
+         <person ref="xpr0058"/>
+         <date from="1693" to="1714-08-21"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">LP Le Tordeur</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0174"/>
+         <date/>
+         <type>A</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0093"/>
+         <date/>
+         <type>0</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0252"/>
+         <date to="1786"/>
+         <type>A</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0256"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice52">
+      <event type="acquisition">
+         <person ref="xpr0214"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0181"/>
+         <date from="1697-04-01 (devant Me Caron)"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/IV/289</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice53">
+      <event type="acquisition">
+         <person ref="xpr0178"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice54">
+      <event type="acquisition">
+         <person ref="xpr0172"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0241"/>
+         <date from="1712-12-23"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/ET/XXX/199</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0041"/>
+         <date from="1719-08-28"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/XXX/222</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0030"/>
+         <date from="1732-02-01" to="au plus tard 1736"/>
+         <type>0</type>
+         <bibl type="protertyStart">MC/ET/LXX/298</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0253"/>
+         <date to="1745-04-16"/>
+         <type>A</type>
+         <bibl type="propertyEnd">AN/Y/13370</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0062"/>
+         <date to="1757"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice55">
+      <event type="acquisition">
+         <person ref="xpr0105"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0243"/>
+         <date/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0036"/>
+         <date to="1751 au plus tard"/>
+         <type>E</type>
+         <bibl type="propertyEnd">LP de Vonges</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0082"/>
+         <date from="1751-07-29"/>
+         <type>E</type>
+         <bibl type="protertyStart">MC/ET/XCIII/365</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0016"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice56">
+      <event type="acquisition">
+         <person ref="xpr0063"/>
+         <date from="1693" to="1736"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0010"/>
+         <date to="1766-09-15"/>
+         <type>E</type>
+         <bibl type="propertyEnd">LP Laperiere</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0076"/>
+         <date to="1771-06-10"/>
+         <type>E</type>
+         <bibl type="propertyEnd">LP Vavasseur</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0258"/>
+         <date from="à Louis François Campion" to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice57">
+      <event type="acquisition">
+         <person ref="xpr0138"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice58">
+      <event type="acquisition">
+         <person ref="xpr0133"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice59">
+      <event type="acquisition">
+         <person ref="xpr0052"/>
+         <date from="1693" to=""/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0189"/>
+         <date to="1722"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+   <office xml:id="xprOffice60">
+      <event type="acquisition">
+         <person ref="xpr0239"/>
+         <date from="1693"/>
+         <type>E</type>
+         <bibl type="protertyStart">néant</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0009"/>
+         <date to="1749"/>
+         <type>E</type>
+         <bibl type="propertyEnd">IAD</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0046"/>
+         <date to="1755-12-03"/>
+         <type>E</type>
+         <bibl type="propertyEnd">placard de décès</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0175"/>
+         <date from="1757-03-22"/>
+         <type>0</type>
+         <bibl type="protertyStart">LP</bibl>
+      </event>
+      <event type="acquisition">
+         <person ref="xpr0042"/>
+         <date to="1791"/>
+         <type>E</type>
+      </event>
+      <event type="acquisition">
+         <person ref="xprNaN"/>
+         <type/>
+      </event>
+   </office>
+</listOffice>

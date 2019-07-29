@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" xpath-default-namespace="" xmlns="xpr" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    exclude-result-prefixes="xs" 
+    xpath-default-namespace="" 
+    xmlns="xpr" 
+    version="2.0">
 
     <xsl:strip-space elements="*"/>
     <xsl:output encoding="UTF-8" indent="yes" method="xml"/>
@@ -17,7 +22,7 @@
     <xsl:template match="record">
         <xsl:variable name="id" select="concat('xprOffice', format-number(number(office), '00'))"/>
         <xsl:variable name="office" select="."/>
-        <xsl:variable name="expertList" select="document('expertsFichier.xml')"/>
+        <xsl:variable name="expertList" select="document('../sources/expertsFichier.xml')"/>
         <office xml:id="{$id}">
             <xsl:apply-templates/>
             <xsl:call-template name="acquisition">
