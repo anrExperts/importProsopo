@@ -96,6 +96,15 @@
                     <xsl:with-param name="officeCost" select="$officeCost"/>
                     <xsl:with-param name="officeCostMentionned" select="$officeCostMentionned"/>
                     <xsl:with-param name="officeCategory" select="$officeCategory"/>
+                    <!-- mariage -->
+                    <xsl:with-param name="spouse" select="$spouse"/>
+                    <xsl:with-param name="etude" select="$etude"/>
+                    <xsl:with-param name="etudeBis" select="$etudeBis"/>
+                    <!-- master -->
+                    <xsl:with-param name="master" select="$master"/>
+                    <!-- end Activity -->
+                    <xsl:with-param name="dateEndActivity" select="$dateEndActivity"/>
+                    <xsl:with-param name="endActivity" select="$endActivity"/>
                 </xsl:call-template>
                 
                 <!--<xsl:call-template name="birth">
@@ -109,30 +118,26 @@
                 <xsl:with-param name="deathPlace" select="$deathPlace"/>
                 <xsl:with-param name="deathSource" select="$deathSource"/>
             </xsl:call-template>-->
-                <xsl:call-template name="mariage">
+                <!--<xsl:call-template name="mariage">
                     <xsl:with-param name="spouse" select="$spouse"/>
                     <xsl:with-param name="etude" select="$etude"/>
                     <xsl:with-param name="etudeBis" select="$etudeBis"/>
-                </xsl:call-template>
-                <xsl:call-template name="master">
-                    <!-- @rmq toutes les données ne sont pas formalisées en date -->
-                    <xsl:with-param name="master" select="$master"/>
-                </xsl:call-template>
+                </xsl:call-template>-->
                 
-                <xsl:call-template name="relinquishment">
+                <!--<xsl:call-template name="relinquishment">
                     <xsl:with-param name="officeSuccessor" select="$officeSuccessor"/>
                     <xsl:with-param name="officeId" select="$officeId"/>
                     <xsl:with-param name="dateEndActivity" select="$dateEndActivity"/>
                     <xsl:with-param name="endActivity" select="$endActivity"/>
-                </xsl:call-template>
+                </xsl:call-template>-->
                 
-                <xsl:call-template name="iad">
+                <!--<xsl:call-template name="iad">
                     <xsl:with-param name="iad" select="$iad"/>
                     <xsl:with-param name="iadSource" select="$iadSource"/>
                     <xsl:with-param name="iadEtude" select="$iadEtude"/>
                     <xsl:with-param name="iadSource2" select="$iadSource2"/>
                     <xsl:with-param name="iadPhoto" select="$iadPhoto"/>
-                </xsl:call-template>
+                </xsl:call-template>-->
             </cpfDescription>
             <xsl:apply-templates/>
         </eac-cpf>
@@ -190,6 +195,15 @@
         <xsl:param name="officePurchaseSource"/>
         <xsl:param name="officeSuccessor"/>
         <xsl:param name="officeVacant"/>
+        <!-- mariage -->
+        <xsl:param name="spouse"/>
+        <xsl:param name="etude"/>
+        <xsl:param name="etudeBis"/>
+        <!-- master -->
+        <xsl:param name="master"/>
+        <!-- relinquishment -->
+        <xsl:param name="dateEndActivity"/>
+        <xsl:param name="endActivity"/>
         <description>
             <xsl:call-template name="existDates">
                 <xsl:with-param name="birthDate" select="$birthDate"/>
@@ -213,6 +227,24 @@
                         <xsl:with-param name="officePredecessor" select="$officePredecessor"/>
                         <xsl:with-param name="officeSuccessor" select="$officeSuccessor"/>
                         <xsl:with-param name="officeVacant" select="$officeVacant"/>
+                    </xsl:call-template>
+                    
+                    <xsl:call-template name="mariage">
+                        <xsl:with-param name="spouse" select="$spouse"/>
+                        <xsl:with-param name="etude" select="$etude"/>
+                        <xsl:with-param name="etudeBis" select="$etudeBis"/>
+                    </xsl:call-template>
+                    
+                    <xsl:call-template name="relinquishment">
+                        <xsl:with-param name="officeSuccessor" select="$officeSuccessor"/>
+                        <xsl:with-param name="officeId" select="$officeId"/>
+                        <xsl:with-param name="dateEndActivity" select="$dateEndActivity"/>
+                        <xsl:with-param name="endActivity" select="$endActivity"/>
+                    </xsl:call-template>
+                    
+                    <xsl:call-template name="master">
+                        <!-- @rmq toutes les données ne sont pas formalisées en date -->
+                        <xsl:with-param name="master" select="$master"/>
                     </xsl:call-template>
                 </chronList>
             </biogHist>
@@ -242,6 +274,69 @@
     <xsl:template name="death">
         <xsl:param name="deathDate"/>
         <toDate standardDate="{$deathDate}"/>
+    </xsl:template>
+    
+    <xsl:template name="functions">
+        <!-- @todo sources pour indiquer qu'il s'agit des informations tirées des almanachs -->
+        <!-- @todo vérifier dans les almanachs lorsqu'ils changent de colonne pour avoir chaques intervalles -->
+        <xsl:param name="officeCategory"/>
+        <xsl:param name="almanachEntry"/>
+        <xsl:param name="almanachExit"/>
+        <functions>
+            <xsl:choose>
+                <xsl:when test="$officeCategory = 'E' or $officeCategory = 'E (mention LP)'">
+                    <function>
+                        <term>Entrepreneur</term>
+                        <dateRange>
+                            <fromDate standardDate="{$almanachEntry}"/>
+                            <toDate standardDate="{$almanachExit}"/>
+                        </dateRange>
+                    </function>
+                </xsl:when>
+                <xsl:when test="$officeCategory = 'A'">
+                    <function>
+                        <term>Architecte</term>
+                        <dateRange>
+                            <fromDate standardDate="{$almanachEntry}"/>
+                            <toDate standardDate="{$almanachExit}"/>
+                        </dateRange>
+                    </function>
+                </xsl:when>
+                <xsl:when test="$officeCategory = 'arpenteur (E)'">
+                    <function>
+                        <term>Arpenteur (entrepreneur)</term>
+                        <dateRange>
+                            <fromDate standardDate="{$almanachEntry}"/>
+                            <toDate standardDate="{$almanachExit}"/>
+                        </dateRange>
+                    </function>
+                </xsl:when>
+                <xsl:when test="$officeCategory = 'E puis A' or 'E puis A (voir convention)'">
+                    <function>
+                        <term>Entrepreneur</term>
+                    </function>
+                    <function>
+                        <term>Architecte</term>
+                    </function>
+                </xsl:when>
+                <xsl:when test="$officeCategory = 'A puis E'">
+                    <function>
+                        <term>Architecte</term>
+                    </function>
+                    <function>
+                        <term>Entrepreneur</term>
+                    </function>
+                </xsl:when>
+                <!-- @todo  les autres cas qui ne figurent vraisemblablement pas-->
+                <xsl:otherwise/>
+            </xsl:choose>
+        </functions>
+    </xsl:template>
+    
+    <xsl:template match="title">
+        <occupation>
+            <xsl:value-of select="."/>
+        </occupation>
     </xsl:template>
     
     <xsl:template name="officePurchase">
@@ -305,65 +400,6 @@
             </xsl:for-each>
         </chronItem>
     </xsl:template>
-    
-    <xsl:template name="functions">
-        <!-- @todo sources pour indiquer qu'il s'agit des informations tirées des almanachs -->
-        <!-- @todo vérifier dans les almanachs lorsqu'ils changent de colonne pour avoir chaques intervalles -->
-        <xsl:param name="officeCategory"/>
-        <xsl:param name="almanachEntry"/>
-        <xsl:param name="almanachExit"/>
-        <functions>
-            <xsl:choose>
-                <xsl:when test="$officeCategory = 'E' or $officeCategory = 'E (mention LP)'">
-                    <function>
-                        <term>Entrepreneur</term>
-                        <dateRange>
-                            <fromDate standardDate="{$almanachEntry}"/>
-                            <toDate standardDate="{$almanachExit}"/>
-                        </dateRange>
-                    </function>
-                </xsl:when>
-                <xsl:when test="$officeCategory = 'A'">
-                    <function>
-                        <term>Architecte</term>
-                        <dateRange>
-                            <fromDate standardDate="{$almanachEntry}"/>
-                            <toDate standardDate="{$almanachExit}"/>
-                        </dateRange>
-                    </function>
-                </xsl:when>
-                <xsl:when test="$officeCategory = 'arpenteur (E)'">
-                    <function>
-                        <term>Arpenteur (entrepreneur)</term>
-                        <dateRange>
-                            <fromDate standardDate="{$almanachEntry}"/>
-                            <toDate standardDate="{$almanachExit}"/>
-                        </dateRange>
-                    </function>
-                </xsl:when>
-                <xsl:when test="$officeCategory = 'E puis A' or 'E puis A (voir convention)'">
-                    <function>
-                        <term>Entrepreneur</term>
-                    </function>
-                    <function>
-                        <term>Architecte</term>
-                    </function>
-                </xsl:when>
-                <xsl:when test="$officeCategory = 'A puis E'">
-                    <function>
-                        <term>Architecte</term>
-                    </function>
-                    <function>
-                        <term>Entrepreneur</term>
-                    </function>
-                </xsl:when>
-                <!-- @todo  les autres cas qui ne figurent vraisemblablement pas-->
-                <xsl:otherwise/>
-            </xsl:choose>
-        </functions>
-    </xsl:template>
-    
-    
 
     <xsl:template name="mariage">
         <xsl:param name="spouse"/>
@@ -375,62 +411,32 @@
                 <xsl:when test="starts-with($spouse, '1/') and matches($spouse, '2/')">
                     <xsl:variable name="firstSpouse" select="substring-after(substring-before($spouse, ' 2/'), '1/')"/>
                     <xsl:variable name="secondSpouse" select="substring-after($spouse, ' 2/')"/>
-                    <event type="mariage">
-                        <label>Mariage</label>
-                        <xsl:choose>
-                            <xsl:when test="matches($firstSpouse, '\(')">
-                                <persName>
-                                    <xsl:value-of select="normalize-space(substring-before($firstSpouse, ' ('))"/>
-                                </persName>
-                                <note>
-                                    <xsl:value-of select="normalize-space(concat('(', substring-after($firstSpouse, ' (')))"/>
-                                </note>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <persName>
-                                    <xsl:value-of select="normalize-space($firstSpouse)"/>
-                                </persName>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </event>
-                    <event type="mariage">
-                        <label>Mariage</label>
-                        <xsl:choose>
-                            <xsl:when test="matches($secondSpouse, '\(')">
-                                <persName>
-                                    <xsl:value-of select="normalize-space(substring-before($secondSpouse, ' ('))"/>
-                                </persName>
-                                <note>
-                                    <xsl:value-of select="normalize-space(concat('(', substring-after($secondSpouse, ' (')))"/>
-                                </note>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <persName>
-                                    <xsl:value-of select="normalize-space($secondSpouse)"/>
-                                </persName>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </event>
+                    <chronItem localType="mariage">
+                        <date/>
+                        <placeEntry/>
+                        <event>Mariage</event>
+                        <rico:participant><xsl:value-of select="normalize-space($firstSpouse)"/></rico:participant>
+                        <rico:involve/>
+                        <xpr:source xlink:href=""/>
+                    </chronItem>
+                    <chronItem localType="mariage">
+                        <date/>
+                        <placeEntry/>
+                        <event>Mariage</event>
+                        <rico:participant><xsl:value-of select="normalize-space($secondSpouse)"/></rico:participant>
+                        <rico:involve/>
+                        <xpr:source xlink:href=""/>
+                    </chronItem>
                 </xsl:when>
                 <xsl:otherwise>
-                    <event type="mariage">
-                        <label>Mariage</label>
-                        <xsl:choose>
-                            <xsl:when test="matches($spouse, '\(')">
-                                <persName>
-                                    <xsl:value-of select="normalize-space(substring-before($spouse, ' ('))"/>
-                                </persName>
-                                <note>
-                                    <xsl:value-of select="normalize-space(concat('(', substring-after($spouse, ' (')))"/>
-                                </note>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <persName>
-                                    <xsl:value-of select="normalize-space($spouse)"/>
-                                </persName>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </event>
+                    <chronItem localType="mariage">
+                        <date/>
+                        <placeEntry/>
+                        <event>Mariage</event>
+                        <rico:participant><xsl:value-of select="normalize-space($spouse)"/></rico:participant>
+                        <rico:involve/>
+                        <xpr:source xlink:href=""/>
+                    </chronItem>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:if>
@@ -439,29 +445,27 @@
     <xsl:template name="master">
         <xsl:param name="master"/>
         <xsl:if test="string($master)">
-            <event type="master">
-                <label>Maîtrise maç.<!-- @todo label avec $masterTitle ?--></label>
+            <chronItem localType="master">
                 <xsl:choose>
                     <xsl:when test="$master castable as xs:date">
-                        <date when="{normalize-space($master)}"/>
+                        <date standardDate="{normalize-space($master)}"/>
                     </xsl:when>
                     <xsl:otherwise>
-                        <note>
-                            <xsl:value-of select="normalize-space($master)"/>
-                        </note>
+                        <!-- @todo -->
+                        <xsl:comment><xsl:value-of select="normalize-space($master)"/></xsl:comment>
                     </xsl:otherwise>
                 </xsl:choose>
-            </event>
+                <placeEntry/>
+                <event>Maîtrise maç.<!-- @todo label avec $masterTitle ?--></event>
+                <rico:participant/>
+                <rico:involve/>
+                <xpr:source xlink:href=""/>
+            </chronItem>
         </xsl:if>
     </xsl:template>
 
-    <xsl:template match="title">
-        <occupation>
-            <xsl:value-of select="."/>
-        </occupation>
-    </xsl:template>
-
     <xsl:template name="relinquishment">
+        <!-- @todo vérifier avec le tableau, en l'état je ne pense pas que nous puissions importer cette info en l'état -->
         <!-- @quest comment distinguer résignation et vente ? parfois les deux sont distincts -->
         <xsl:param name="officeSuccessor"/>
         <xsl:param name="officeId"/>
@@ -470,6 +474,7 @@
 
         <xsl:variable name="successorSurname" select="substring-before($officeSuccessor, ',')"/>
         <xsl:variable name="successorForename" select="substring-after($officeSuccessor, ', ')"/>
+        
         <xsl:variable name="successorRef">
             <xsl:for-each select="//record[./name = $successorSurname or ./variant = $successorSurname][./firstName = $successorForename]">
                 <xsl:value-of select="concat('xpr', format-number(number(substring-after(id, 'E')), '0000'))"/>
@@ -477,12 +482,10 @@
         </xsl:variable>
         <xsl:choose>
             <xsl:when test="$endActivity = 'Résignation'">
-                <event type="relinquishment">
-                    <!-- @todo label -->
-                    <label>Résignation/vente de l'office</label>
+                <chronItem localType="relinquishment">
                     <xsl:choose>
                         <xsl:when test="$dateEndActivity castable as xs:date">
-                            <date when="{normalize-space($dateEndActivity)}"/>
+                            <date standardDate="{normalize-space($dateEndActivity)}"/>
                         </xsl:when>
                         <xsl:otherwise>
                             <date>
@@ -490,11 +493,11 @@
                             </date>
                         </xsl:otherwise>
                     </xsl:choose>
-                    <officeId ref="{$officeId}"/>
-                    <persName ref="{$successorRef}" type="successor">
-                        <xsl:value-of select="$officeSuccessor"/>
-                    </persName>
-                </event>
+                    <!-- @todo label -->
+                    <event>Résignation/vente de l'office</event>
+                    <rico:involve ref="{$officeId}"/>
+                    <rico:participant ref="{$successorRef}" type="successor"><xsl:value-of select="$officeSuccessor"/></rico:participant>
+                </chronItem>
             </xsl:when>
             <xsl:otherwise/>
         </xsl:choose>
