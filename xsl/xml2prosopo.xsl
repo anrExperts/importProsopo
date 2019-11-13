@@ -91,7 +91,7 @@
         <!-- notes/commentaire -->
         <xsl:variable name="note" select="normalize-space(note)"/>
         <xsl:variable name="commentary" select="normalize-space(commentary)"/>
-        <eac-cpf xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xpr="xpr" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rico="rico">
+        <eac-cpf xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xpr="xpr" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:rico="rico" xml:id="{$id}">
             <control/>
             <cpfDescription>
                 <xsl:call-template name="names">
@@ -164,9 +164,13 @@
         <xsl:param name="id"/>
         <xsl:param name="names"/>
         <xsl:param name="variant"/>
-        <identity>
+        <identity localType="expert">
             <entityId><xsl:value-of select="$id"/></entityId>
             <entityType>person</entityType>
+            <nameEntry>
+                <part><xsl:value-of select="concat($names[1], ', ', $names[2])"/></part>
+                <authorizedForm/>
+            </nameEntry>
             <nameEntry>
                 <part localType="surname"><xsl:value-of select="$names[1]"/></part>
                 <part localType="forename"><xsl:value-of select="$names[2]"/></part>
@@ -176,7 +180,8 @@
                 <part localType="academic"/>
                 <part localType="religious"/>
                 <part localType="nobiliary"/>
-                <authorizedForm/>
+                <alternativeForm/>
+                <xpr:source xlink:href=""/>
             </nameEntry>
             <!-- @rmq test if $variant is not null -->
             <xsl:if test="string($variant)">
@@ -190,6 +195,7 @@
                     <part localType="religious"/>
                     <part localType="nobiliary"/>
                     <alternativeForm/>
+                    <xpr:source xlink:href=""/>
                 </nameEntry>
             </xsl:if>
         </identity>
@@ -460,7 +466,7 @@
                     <placeEntry><xsl:value-of select="$birthPlace"/></placeEntry>
                     <event>Naissance</event>
                     <rico:participant xlink:href="" type=""/>
-                    <rico:involve/>
+                    <rico:involve xlink:href=""/>
                     <xpr:source xlink:href="{replace(normalize-space($birthSource), ' ', '')}"/>
                 </chronItem>
             </xsl:when>
@@ -481,7 +487,7 @@
         <xsl:variable name="etude">
             <xsl:choose>
                 <xsl:when test="not($etude = '')">
-                    <xsl:value-of select="concat('notaryOff', format-number(number($etude), '000'))"/>
+                    <xsl:value-of select="concat('xprNotaryOffice', format-number(number($etude), '000'))"/>
                 </xsl:when>
                 <xsl:otherwise/>
             </xsl:choose>
@@ -538,7 +544,7 @@
                 <placeEntry/>
                 <event>Maîtrise maç.<!-- @todo label avec $masterTitle ?--></event>
                 <rico:participant xlink:href="" type=""/>
-                <rico:involve/>
+                <rico:involve xlink:href=""/>
                 <xpr:source xlink:href=""/>
             </chronItem>
         </xsl:if>
@@ -561,7 +567,7 @@
                     <xsl:value-of select="''"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="concat('xprOff', format-number(number($officeId), '00'))"/>
+                    <xsl:value-of select="concat('xprOffice', format-number(number($officeId), '0000'))"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -615,7 +621,7 @@
                     <placeEntry/>
                     <event>Lettre de dispense</event>
                     <rico:participant xlink:href="" type=""/>
-                    <rico:involve/>
+                    <rico:involve xlink:href=""/>
                     <xpr:source xlink:href=""/>
                 </chronItem>
             </xsl:otherwise>
@@ -629,7 +635,7 @@
             <placeEntry/>
             <event>Lettre de provision</event>
             <rico:participant xlink:href="" type=""/>
-            <rico:involve/>
+            <rico:involve xlink:href=""/>
             <xpr:source xlink:href=""/>
         </chronItem>
     </xsl:template>
@@ -642,7 +648,7 @@
             <placeEntry/>
             <event>Réception</event>
             <rico:participant xlink:href="" type=""/>
-            <rico:involve/>
+            <rico:involve xlink:href=""/>
             <xpr:source xlink:href="{replace($sourceReception, ' ', '')}"/>
         </chronItem>
     </xsl:template>
@@ -661,7 +667,7 @@
                     <xsl:value-of select="''"/>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="concat('xprOff', format-number(number($officeId), '00'))"/>
+                    <xsl:value-of select="concat('xprOffice', format-number(number($officeId), '0000'))"/>
                 </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
@@ -721,7 +727,7 @@
                     <placeEntry/>
                     <event>Décès</event>
                     <rico:participant xlink:href="" type=""/>
-                    <rico:involve/>
+                    <rico:involve xlink:href=""/>
                     <xpr:source xlink:href="{replace(normalize-space($deathSource), ' ', '')}"/>
                 </chronItem>
             </xsl:when>
