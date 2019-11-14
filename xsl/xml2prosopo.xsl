@@ -286,6 +286,7 @@
                     
                     <xsl:call-template name="officePurchase">
                         <xsl:with-param name="officeAcquisitionDate" select="$officeAcquisitionDate"/>
+                        <xsl:with-param name="officePurchaseSource" select="$officePurchaseSource"/>
                         <xsl:with-param name="officeCategory" select="$officeCategory"/>
                         <xsl:with-param name="officeCost" select="$officeCost"/>
                         <xsl:with-param name="officeCostMentionned" select="$officeCostMentionned"/>
@@ -603,7 +604,7 @@
             <rico:participant xlink:href="" type=""/>
             <rico:involve xlink:href="{$officeId}"></rico:involve>
             <xpr:cost><xsl:value-of select="$officeCost"/></xpr:cost>
-            <xsl:for-each select="$officePurchaseSource[position()][string(.)]">
+            <xsl:for-each select="$officePurchaseSource[position()][not(. = '')]">
                 <xpr:source><xsl:attribute name="xlink:href"><xsl:value-of select="replace(.,' ', '')"/></xsl:attribute></xpr:source>
             </xsl:for-each>
         </chronItem>

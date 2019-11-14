@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio xmlns="xpr"
-     xmlns:rico="rico"
-     xmlns:xpr="xpr"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+<bio xmlns="xpr" xmlns:rico="rico" xmlns:xpr="xpr" xmlns:xlink="http://www.w3.org/1999/xlink">
    <eac-cpf xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="eac" xml:id="xpr0001">
       <control/>
       <cpfDescription>
@@ -95,6 +92,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0028"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XXXVI/392"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-01-08"/>
@@ -190,6 +189,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0014"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1773-11-13"/>
@@ -313,6 +313,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost>5000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XCI/1103"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1772-09-16"/>
@@ -438,6 +440,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1759-11-19"/>
@@ -534,7 +537,8 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href="LP"/>
                   </chronItem>
-                  <chronItem localType="master"><!--Sans objet ?-->
+                  <chronItem localType="master">
+                     <!--Sans objet ?-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -548,6 +552,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1776-01-31"/>
@@ -663,6 +668,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0010"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeFortin"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1738-07-16"/>
@@ -767,7 +773,8 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--?-->
+                  <chronItem localType="master">
+                     <!--?-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -781,6 +788,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0040"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1782-01-16"/>
@@ -892,6 +900,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0001"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-03"/>
@@ -1012,6 +1022,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0060"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-03-17"/>
@@ -1116,6 +1127,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0056"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1744-12-18"/>
@@ -1212,6 +1224,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0002"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="P4000"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -1324,6 +1338,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0003"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -1440,6 +1456,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1729-12-23"/>
@@ -1552,6 +1569,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0004"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -1663,6 +1682,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0039"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1724"/>
@@ -1751,6 +1771,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0055"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -1853,6 +1874,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0045"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1718-10-06"/>
@@ -1957,6 +1979,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0030"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1711-02-23"/>
@@ -2068,6 +2091,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0024"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-09-28"/>
@@ -2172,6 +2196,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0007"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1735-09-26"/>
@@ -2288,6 +2313,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0005"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -2383,6 +2410,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0027"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/CXIII/477"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1775-07-05"/>
@@ -2471,6 +2500,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0037"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-03-12"/>
@@ -2574,6 +2604,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -2677,6 +2708,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1748-01-26"/>
@@ -2773,6 +2805,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1766-03-26"/>
@@ -2876,6 +2909,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0037"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1700-08-22"/>
@@ -2970,6 +3004,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0048"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="propr.del'office48"/>
+                     <xpr:source xlink:href="MC/III/851"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="néant"/>
@@ -3050,6 +3086,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeBlavet"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -3141,6 +3178,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeThévenin"/>
+                     <xpr:source xlink:href="MC/ET/LXX/298"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -3237,6 +3276,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1773-05-12"/>
@@ -3344,6 +3384,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1764-02-01"/>
@@ -3452,6 +3493,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1774-05-04"/>
@@ -3563,6 +3605,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0026"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1732-02-15"/>
@@ -3659,6 +3702,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0006"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-09-04"/>
@@ -3755,6 +3800,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0055"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1737-09-23"/>
@@ -3878,6 +3924,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0002"/>
                      <xpr:cost>3600 l. t.</xpr:cost>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeLSBourgeois,sonfils"/>
+                     <xpr:source xlink:href="MC/ET/CXVI/299"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1738-03-20"/>
@@ -4001,6 +4049,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0002"/>
                      <xpr:cost>5000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XIII/319"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1761-08-23"/>
@@ -4108,6 +4158,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeDauvergne"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -4231,6 +4282,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0024"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1747-03-10"/>
@@ -4318,6 +4370,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost>1000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="SIV(MC/LXX/298)"/>
+                     <xpr:source xlink:href="MC/XXX/222"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -4434,6 +4488,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0060"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1766-02-26"/>
@@ -4541,6 +4596,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0036"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/LXXIII/767"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1751-10-08"/>
@@ -4645,6 +4702,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0005"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1779-12-31"/>
@@ -4760,6 +4818,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0031"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1728-04-09"/>
@@ -4876,6 +4935,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0060"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1752-05-15"/>
@@ -4976,6 +5036,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -5063,6 +5124,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0007"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -5159,6 +5222,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0010"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1774-11-16"/>
@@ -5274,6 +5338,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0049"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XIV/372"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1761-04-17"/>
@@ -5377,6 +5443,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0013"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1724-03-09"/>
@@ -5473,6 +5540,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0059"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-10"/>
@@ -5560,6 +5629,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0013"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1699-12-30"/>
@@ -5656,7 +5726,8 @@
                      <rico:involve xlink:href="xprNotaryOffice047"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--1722-->
+                  <chronItem localType="master">
+                     <!--1722-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -5670,6 +5741,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0041"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1720-09-05"/>
@@ -5774,6 +5846,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1762-10-05"/>
@@ -5885,6 +5958,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0032"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/XXXIII/455"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-07-23"/>
@@ -5972,6 +6047,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeDesmaisons"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="non reçu"/>
@@ -6080,6 +6156,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0051"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-02-05"/>
@@ -6184,6 +6262,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0008"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -6292,6 +6372,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0007"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1756-02-17"/>
@@ -6371,6 +6452,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="SIV:D/XI/2,liquidationd'office"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -6467,6 +6549,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1747-03-24"/>
@@ -6583,6 +6666,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0056"/>
                      <xpr:cost>3500 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-03-07"/>
@@ -6679,6 +6764,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -6802,6 +6888,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0047"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1737-07-05"/>
@@ -6918,6 +7005,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0030"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1747-12-22"/>
@@ -7021,6 +7109,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0013"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1739-04-24"/>
@@ -7117,6 +7206,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1780-07-19"/>
@@ -7220,6 +7310,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0014"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1707-03-14"/>
@@ -7324,6 +7415,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1764-10-17"/>
@@ -7428,6 +7520,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1748-02-17"/>
@@ -7536,6 +7629,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost>1000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/XXVII/260"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1752-03-01"/>
@@ -7651,6 +7746,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0003"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1725-10-18"/>
@@ -7747,6 +7843,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1724-04-06"/>
@@ -7861,6 +7958,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost>6300 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="AN/MC/CXII/541B"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1744-06-26"/>
@@ -7969,6 +8068,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0056"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1768-03-04"/>
@@ -8077,6 +8177,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0036"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -8173,6 +8275,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0036"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1716-12-09"/>
@@ -8276,6 +8379,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0033"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1737-01-11"/>
@@ -8378,6 +8482,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-10-26"/>
@@ -8483,6 +8588,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0021"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XC/360"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1748-05-17"/>
@@ -8598,6 +8705,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0055"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XCIII/365"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1751-08-13"/>
@@ -8693,6 +8802,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="AccordMartin/Delcourt"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -8781,6 +8891,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0045"/>
                      <xpr:cost>1940 l.</xpr:cost>
+                     <xpr:source xlink:href="Almanachs"/>
+                     <xpr:source xlink:href="MC/ET/III/890"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1735-03-03"/>
@@ -8877,6 +8989,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0045"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1764-01-18"/>
@@ -8972,6 +9085,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0009"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -9076,6 +9191,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0010"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -9191,6 +9308,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeBleve"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -9314,6 +9432,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1732-08-29"/>
@@ -9422,6 +9541,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0007"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1782-10-16"/>
@@ -9552,6 +9672,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1752-06-09"/>
@@ -9670,6 +9791,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-03-12"/>
@@ -9800,6 +9922,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0051"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1757-09-20"/>
@@ -9903,6 +10026,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0011"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -10011,6 +10136,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0032"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1773-01-27"/>
@@ -10142,6 +10268,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0032"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1762-10-05"/>
@@ -10246,6 +10373,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0021"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1722-09-04"/>
@@ -10341,6 +10469,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0007"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1739-02-14"/>
@@ -10437,6 +10566,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -10541,6 +10672,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0017"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1695-10-15"/>
@@ -10645,6 +10777,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0001"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1776-06-05"/>
@@ -10749,6 +10882,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0043"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1764-06-06"/>
@@ -10852,6 +10986,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -10948,6 +11083,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1755-10-04"/>
@@ -11051,6 +11187,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0055"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-09"/>
@@ -11170,6 +11308,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0017"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1752-06-16"/>
@@ -11265,6 +11404,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0034"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-05-10"/>
@@ -11365,6 +11505,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0043"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/I/313"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-11-18"/>
@@ -11473,6 +11615,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1788-03-12"/>
@@ -11576,6 +11719,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0010"/>
                      <xpr:cost>6000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/XXXVI/517"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1766-02-26"/>
@@ -11687,6 +11832,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0001"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1707-02-22"/>
@@ -11783,6 +11929,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0010"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="LP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1721-12-11"/>
@@ -11879,6 +12027,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0023"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1700-10-13"/>
@@ -11975,6 +12124,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0013"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -12079,6 +12230,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0014"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -12175,6 +12328,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0033"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1768-01-20"/>
@@ -12286,6 +12440,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0017"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-12-11"/>
@@ -12397,6 +12552,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0019"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1725-11-08"/>
@@ -12505,6 +12661,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost>6500 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/LXXVIII/692"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1743-03-29"/>
@@ -12604,6 +12762,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeBoulland"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -12708,6 +12867,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0037"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1754-06-12"/>
@@ -12813,6 +12973,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0048"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/I/362"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-05-22"/>
@@ -12901,6 +13063,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0043"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/VII/183"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1708"/>
@@ -12997,6 +13161,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0015"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-03"/>
@@ -13101,6 +13267,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1707-11-20"/>
@@ -13197,6 +13364,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0049"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1695-09-02"/>
@@ -13285,6 +13453,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0023"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1786-02-09"/>
@@ -13396,6 +13565,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeM.Goupy"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -13500,6 +13670,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1765-12-04"/>
@@ -13594,6 +13765,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1742-02-03"/>
@@ -13681,6 +13853,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0028"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1756-10-11"/>
@@ -13761,6 +13934,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0016"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -13857,6 +14032,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0058"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-10"/>
@@ -13952,6 +14129,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1732-02-08"/>
@@ -14060,7 +14238,8 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--oui-->
+                  <chronItem localType="master">
+                     <!--oui-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -14074,6 +14253,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0017"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -14162,6 +14343,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeBouchu"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -14258,6 +14440,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -14369,6 +14552,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0057"/>
                      <xpr:cost>3500 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-03-07"/>
@@ -14465,6 +14650,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0018"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-09-30"/>
@@ -14553,6 +14740,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0019"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-09-30"/>
@@ -14649,6 +14838,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0046"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1695-07-12"/>
@@ -14752,6 +14942,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1697-04-06"/>
@@ -14839,6 +15030,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0020"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="citédansLP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1788"/>
@@ -14927,6 +15119,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0020"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1768-04-29"/>
@@ -15031,6 +15224,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0008"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/CXVIII/313"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1718-10-06"/>
@@ -15135,6 +15330,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0020"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="nomméparactedu1722-04-01parsesfrèresetsoeurs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-01-08"/>
@@ -15239,6 +15436,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0020"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -15350,6 +15549,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0042"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1700-01-26"/>
@@ -15465,6 +15665,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -15561,6 +15762,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -15657,6 +15859,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0004"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeF.E.Laisney"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1691-03 (non trouvées)"/>
@@ -15753,6 +15956,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0004"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1701-07-31"/>
@@ -15869,6 +16073,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0021"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690 (non trouvées)"/>
@@ -15985,6 +16191,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -16081,6 +16289,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0011"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1770-09-12"/>
@@ -16180,6 +16389,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0037"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-07-14"/>
@@ -16280,6 +16490,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0023"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -16380,6 +16592,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1734-12-02"/>
@@ -16488,6 +16701,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0034"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-07-21"/>
@@ -16604,6 +16818,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeRegnarddeBarentin"/>
+                     <xpr:source xlink:href="MC/ET/LVIII/277:cartonvu,actepastrouvé/17/02??"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1724-02-24"/>
@@ -16699,6 +16915,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0024"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="non trouvées"/>
@@ -16795,6 +17012,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0025"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -16903,6 +17122,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0009"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1773-06-23"/>
@@ -17005,6 +17225,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeMDeBiasAubry"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -17101,6 +17322,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0035"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1739-02-20"/>
@@ -17209,6 +17431,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0040"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-10-23"/>
@@ -17317,6 +17540,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0026"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -17413,6 +17638,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0027"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-13"/>
@@ -17501,6 +17728,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0020"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1788-12-17"/>
@@ -17597,6 +17825,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0028"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-13"/>
@@ -17705,6 +17935,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0049"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1724-09-10"/>
@@ -17805,6 +18036,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-09"/>
@@ -17892,6 +18125,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost>6500 l.</xpr:cost>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeBouillettedeChambly"/>
+                     <xpr:source xlink:href="MC/ET/XXVII/257"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="n'exerce pas"/>
@@ -17988,6 +18223,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0051"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1729-03-24"/>
@@ -18090,6 +18326,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0060"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="LP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1757-04-26"/>
@@ -18197,6 +18435,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0044"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="LP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1778-10-08"/>
@@ -18308,6 +18548,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0006"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1718-05-19"/>
@@ -18396,6 +18637,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0053"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-09"/>
@@ -18496,6 +18739,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="derniertitulairedel'officedeDesboeufs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -18592,6 +18836,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -18695,6 +18940,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0052"/>
                      <xpr:cost>3000</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/IV/289"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1697-04-04"/>
@@ -18802,6 +19049,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0024"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1740-08-26"/>
@@ -18933,6 +19181,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0011"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1739-08-07"/>
@@ -19065,6 +19314,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0011"/>
                      <xpr:cost>4500 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/LXXXVI/476"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1704-04-22"/>
@@ -19173,6 +19424,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeJCDumont"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -19278,7 +19530,8 @@
                      <rico:involve xlink:href="TODO"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--Oui : renonce à l'entreprise-->
+                  <chronItem localType="master">
+                     <!--Oui : renonce à l'entreprise-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -19292,6 +19545,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0030"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-03"/>
@@ -19403,6 +19658,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0008"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XLIX/825(J)"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1777-04-23"/>
@@ -19489,6 +19746,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0006"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="MC/V/409"/>
+                     <xpr:source xlink:href="MC/ET/CXII/684A"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="N'exerce pas"/>
@@ -19577,6 +19836,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0059"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1695-03-04"/>
@@ -19681,6 +19941,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0031"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -19783,6 +20045,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0044"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="transmissionparhéritage"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1743-03-02"/>
@@ -19879,6 +20143,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0032"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -19975,6 +20241,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0032"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XXVIII/94"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1708-07-15"/>
@@ -20071,6 +20339,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0033"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-08"/>
@@ -20152,7 +20422,8 @@
                      <rico:involve xlink:href="xprNotaryOffice087"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--juré des oeuvres de maç : LP le 3-10-1675-->
+                  <chronItem localType="master">
+                     <!--juré des oeuvres de maç : LP le 3-10-1675-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -20166,6 +20437,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0034"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -20254,6 +20527,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0035"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -20358,6 +20633,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0029"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1691-11-12"/>
@@ -20454,6 +20730,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0037"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -20534,6 +20812,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0027"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -20637,6 +20916,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -20752,6 +21032,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost>4200 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1770-04-06"/>
@@ -20860,6 +21141,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -20963,6 +21245,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0041"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1777-04-23"/>
@@ -21058,6 +21341,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-13"/>
@@ -21173,6 +21458,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0048"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/II/652"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1771-11-20"/>
@@ -21280,6 +21567,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost>6000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/C/670"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1764-01-18"/>
@@ -21388,6 +21677,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -21496,6 +21786,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeM.Rolland"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -21620,6 +21911,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0046"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1735-12-31"/>
@@ -21744,6 +22036,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0040"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1757-03-04"/>
@@ -21848,6 +22141,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0039"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-05"/>
@@ -21943,6 +22238,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0040"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -22050,6 +22347,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0041"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-14"/>
@@ -22138,7 +22436,8 @@
             </functions>
             <biogHist>
                <chronList>
-                  <chronItem localType="master"><!--1662-09-06 (maître charp.)-->
+                  <chronItem localType="master">
+                     <!--1662-09-06 (maître charp.)-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -22152,6 +22451,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0052"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-10"/>
@@ -22247,6 +22548,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1780-02-23"/>
@@ -22350,6 +22652,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0028"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1769-12-13"/>
@@ -22453,6 +22756,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0019"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1789-01-14"/>
@@ -22556,6 +22860,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0042"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-09-30"/>
@@ -22672,6 +22978,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0009"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1730-03-24"/>
@@ -22751,6 +23058,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0043"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -22847,6 +23156,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0044"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-09-30"/>
@@ -22962,6 +23273,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0012"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/LXXVI/221"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1722-02-12"/>
@@ -23058,6 +23371,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0027"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-12-30"/>
@@ -23154,6 +23468,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0045"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-03"/>
@@ -23242,6 +23558,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0046"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -23346,6 +23664,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1766-04-09"/>
@@ -23449,6 +23768,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0014"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1753-11-10"/>
@@ -23537,6 +23857,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0024"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="LP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1768-08-17"/>
@@ -23632,6 +23954,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0006"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="LP"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1751-12-30"/>
@@ -23736,6 +24060,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0008"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/VIII/1000"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-02-09"/>
@@ -23832,6 +24158,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0001"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1729-08-05"/>
@@ -23936,6 +24263,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0038"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1706-03-06"/>
@@ -24032,6 +24360,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0031"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1716-12-22"/>
@@ -24113,7 +24442,8 @@
                      <rico:involve xlink:href="xprNotaryOffice010"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--1741 Z1j 109, f. 48r-->
+                  <chronItem localType="master">
+                     <!--1741 Z1j 109, f. 48r-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -24127,6 +24457,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="dernierpossesseurdel'officedeNeveu"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -24216,7 +24547,8 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master"><!--1767 Z1j 141, f. 54r-->
+                  <chronItem localType="master">
+                     <!--1767 Z1j 141, f. 54r-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -24230,6 +24562,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost>4700 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XXX/405"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1768-02-03"/>
@@ -24325,6 +24659,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0005"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-03-11"/>
@@ -24413,6 +24748,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0047"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-03"/>
@@ -24501,6 +24838,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0021"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1788-12-17"/>
@@ -24604,6 +24942,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0060"/>
                      <xpr:cost>3000 l. t.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1693-04-09"/>
@@ -24707,6 +25047,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1753-02-12"/>
@@ -24801,6 +25142,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="SIV(MC/LXX/298)"/>
+                     <xpr:source xlink:href="MC/ET/XXX/199"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -24887,6 +25230,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0056"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/II/488"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1742"/>
@@ -24983,6 +25328,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0055"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1728-12-31"/>
@@ -25071,6 +25417,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0048"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-08-03"/>
@@ -25175,6 +25523,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0022"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1779-12-01"/>
@@ -25286,6 +25635,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0050"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XCII/361"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1712-09-04"/>
@@ -25390,6 +25741,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0050"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1735-01-28"/>
@@ -25520,6 +25872,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0040"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1723-05-21"/>
@@ -25616,6 +25969,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0046"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -25727,6 +26081,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0019"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1765-01-16"/>
@@ -25814,6 +26169,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0041"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="P4000,quittance"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="néant"/>
@@ -25925,6 +26281,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0051"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1770-01-24"/>
@@ -26029,6 +26386,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0054"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1736-05-11"/>
@@ -26125,6 +26483,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href=""/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -26236,6 +26595,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0051"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1786-11-20"/>
@@ -26339,6 +26699,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0044"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1733-10-09"/>
@@ -26455,6 +26816,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0014"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/LXX/309"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1735-08-16"/>
@@ -26559,6 +26922,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0056"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1773-01-13"/>
@@ -26670,6 +27034,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0023"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1728-03-25"/>
@@ -26786,6 +27151,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0026"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1762-07-21"/>
@@ -26893,6 +27259,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0047"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Almanachs"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate=""/>
@@ -27019,6 +27386,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0046"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1727-02-20"/>
@@ -27115,6 +27483,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0049"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
@@ -27230,6 +27600,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0035"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="MC/ET/XIII/132(J)"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1698-05-24"/>
@@ -27326,6 +27698,7 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0006"/>
                      <xpr:cost/>
+                     <xpr:source xlink:href="Lettresdeprov."/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1789-07-01"/>
@@ -27429,6 +27802,8 @@
                      <rico:participant xlink:href="" type=""/>
                      <rico:involve xlink:href="xprOffice0050"/>
                      <xpr:cost>6000 l.</xpr:cost>
+                     <xpr:source xlink:href="Lettresdeprov."/>
+                     <xpr:source xlink:href="néant"/>
                   </chronItem>
                   <chronItem localType="provision">
                      <date standardDate="1690-07-22"/>
