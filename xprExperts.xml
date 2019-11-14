@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bio xmlns="xpr" xmlns:rico="rico" xmlns:xpr="xpr" xmlns:xlink="http://www.w3.org/1999/xlink">
+<bio xmlns="xpr"
+     xmlns:rico="rico"
+     xmlns:xpr="xpr"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
    <eac-cpf xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="eac" xml:id="xpr0001">
       <control/>
       <cpfDescription>
@@ -537,8 +540,7 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href="LP"/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--Sans objet ?-->
+                  <chronItem localType="master"><!--Sans objet ?-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -773,8 +775,7 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--?-->
+                  <chronItem localType="master"><!--?-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -5726,8 +5727,7 @@
                      <rico:involve xlink:href="xprNotaryOffice047"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--1722-->
+                  <chronItem localType="master"><!--1722-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -14238,8 +14238,7 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--oui-->
+                  <chronItem localType="master"><!--oui-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -19530,8 +19529,7 @@
                      <rico:involve xlink:href="TODO"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--Oui : renonce à l'entreprise-->
+                  <chronItem localType="master"><!--Oui : renonce à l'entreprise-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -20422,8 +20420,7 @@
                      <rico:involve xlink:href="xprNotaryOffice087"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--juré des oeuvres de maç : LP le 3-10-1675-->
+                  <chronItem localType="master"><!--juré des oeuvres de maç : LP le 3-10-1675-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -22436,8 +22433,7 @@
             </functions>
             <biogHist>
                <chronList>
-                  <chronItem localType="master">
-                     <!--1662-09-06 (maître charp.)-->
+                  <chronItem localType="master"><!--1662-09-06 (maître charp.)-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -24442,8 +24438,7 @@
                      <rico:involve xlink:href="xprNotaryOffice010"/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--1741 Z1j 109, f. 48r-->
+                  <chronItem localType="master"><!--1741 Z1j 109, f. 48r-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>
@@ -24547,8 +24542,7 @@
                      <rico:involve xlink:href=""/>
                      <xpr:source xlink:href=""/>
                   </chronItem>
-                  <chronItem localType="master">
-                     <!--1767 Z1j 141, f. 54r-->
+                  <chronItem localType="master"><!--1767 Z1j 141, f. 54r-->
                      <placeEntry/>
                      <event>Maîtrise maç.</event>
                      <rico:participant xlink:href="" type=""/>

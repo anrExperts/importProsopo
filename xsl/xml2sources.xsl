@@ -16,13 +16,14 @@
     </xsl:template>
     
     <xsl:template match="csv">
-        <xsl:variable name="acquisitionSource" select="//propertySource"/>
+        <xsl:variable name="acquisitionSource" select="//aquisitionSource"/>
+        <xsl:variable name="propertySource" select="//propertySource"/>
         <xsl:variable name="receptionSource" select="//sourceReception"/>
         <xsl:variable name="birthSource" select="//birthSource"/>
         <xsl:variable name="deathSource" select="//deathSource"/>
         <xsl:variable name="iadSource" select="//iadSource"/>
         <sources>
-            <xsl:for-each select="distinct-values($acquisitionSource | $birthSource | $birthSource | $deathSource | $iadSource)">
+            <xsl:for-each select="distinct-values($acquisitionSource | $propertySource | $birthSource | $birthSource | $deathSource | $iadSource)">
                 <xsl:choose>
                     <xsl:when test=". = ''"/>
                     <xsl:otherwise>
